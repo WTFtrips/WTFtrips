@@ -1,0 +1,29 @@
+<!-- html page for show book -->
+<div class="panel panel-default" ng-init="showBook()">
+<div class="panel-heading" style="background-color: #420606"> </div>
+  <div class="panel-heading" style="background-color: #09091e"> 
+    <h3 class="panel-title" style="color: white; text-align: center;">Latest Books</h3>
+  </div>
+    <div class="panel-body">
+      <div class="row">
+      <div ng-repeat="books in book">
+        <div class="col-md-6" ng-if="books.type==='link' && books.approved==='false'">
+         <div class="col-md-6">
+        <object style="height: 300px;width: 200px" type="application/pdf" data={{books.link}}></object>
+        </div>
+        <div class="col-md-6">
+          <h2 style="font-weight: bold;">{{books.title}}</h2>
+          <p><span style="color: #380001">by : </span> {{books.author}}</p>
+          <p><span style="color: #380001">genre : </span>{{books.genre}}</p>
+          <p><span style="color: #380001"> publisher : </span>{{books.publisher}}</p>
+          <p><span style="color: #380001">pages : </span>{{books.pages}}</p>
+          <p style="color:#380001">simple description :</p>
+          <p>{{books.description}}</p>
+          <button class="btn btn-primary" ng-if="books.type==='link'" ng-click='booktab(books.link)'>Download</button>
+          <button class="btn btn-primary" ng-click="books.approved='true';updatebook(books)">Approve</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
