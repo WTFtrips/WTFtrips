@@ -14,7 +14,7 @@ app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 
 // Connect to Mongoose
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/bookstore');
+mongoose.connect('mongodb://cozmoc:Hohoasadad123@ds143449.mlab.com:43449/nodejsapp');
 var db = mongoose.connection;
 
 
