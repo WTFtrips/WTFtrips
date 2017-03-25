@@ -5266,7 +5266,7 @@ nav .inner-nav.mobile_nav.opened ul {
 
 .transition, .filter-grayscale, .cws-button, .cws-icon.border-icon, .cws-icon.type-3, .cws-icon.type-3:before, .cws-icon.type-3:after, .hover-effect-2 .opacity, .alert .close, .tabs .block-tabs-btn .tabs-btn, .carousel-container .carousel-nav .prev,
 .carousel-container .carousel-nav .next, .carousel-pag .owl-pagination .owl-page,
-.pagiation-carousel .owl-pagination .owl-page, .carousel-pag.white .owl-pagination .owl-page {
+.pagination-carousel .owl-pagination .owl-page, .carousel-pag.white .owl-pagination .owl-page {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -10130,14 +10130,14 @@ aside:last-child {
 /* Carousel Pagination */
 /*  */
 .carousel-pag .owl-pagination,
-.pagiation-carousel .owl-pagination {
+.pagination-carousel .owl-pagination {
     display: block;
     text-align: center;
     margin-top: 25px;
 }
 
 .carousel-pag .owl-pagination .owl-page,
-  .pagiation-carousel .owl-pagination .owl-page {
+  .pagination-carousel .owl-pagination .owl-page {
     display: inline-block;
     width: 8px;
     height: 8px;
@@ -10150,29 +10150,29 @@ aside:last-child {
 }
 
 .carousel-pag .owl-pagination .owl-page.active,
-    .pagiation-carousel .owl-pagination .owl-page.active {
+    .pagination-carousel .owl-pagination .owl-page.active {
     border-color: #ffc107;
     background: transparent;
 }
 
 .carousel-pag.main-color .owl-page,
-.pagiation-carousel.main-color .owl-page {
+.pagination-carousel.main-color .owl-page {
     border-color: #404040;
 }
 
 .carousel-pag.main-color .owl-page.active,
-  .pagiation-carousel.main-color .owl-page.active {
+  .pagination-carousel.main-color .owl-page.active {
     border-color: #ffc107;
     background: #ffc107;
 }
 
 .carousel-pag.white .owl-page,
-.pagiation-carousel.white .owl-page {
+.pagination-carousel.white .owl-page {
     border-color: #ffffff;
 }
 
 .carousel-pag.white .owl-page.active,
-  .pagiation-carousel.white .owl-page.active {
+  .pagination-carousel.white .owl-page.active {
     background: #ffffff;
 }
 

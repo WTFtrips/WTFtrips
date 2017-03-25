@@ -9,8 +9,9 @@ angular.module('addbook' , [])
       } 
   }
 
-  // function add book just for admin 
+  
   $scope.cartshow=false
+  $scope.menuclk=true
   $scope.book.type="book"
   $scope.book.approved='true'
   $scope.addbook = function () {
