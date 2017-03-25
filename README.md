@@ -1,5 +1,5 @@
 # Project Name
-Book-story
+WTFtrips
 
 ## Table of Contents:
 - Usage
@@ -31,4 +31,4 @@ install nodeJS framework on your local machine.
 install node package manager "npm" tool.
 
 ## Team
-Team Members: Ahmad Al Maradni , Sahar Al Shurafat , Ahmad shamasneh , Muhammad Enjari
+Team Members: Ahmad Alhasan , Amer AlOmari
